@@ -7,8 +7,8 @@ This repository contains scripts and tools for the assembly and analysis of the 
 ## Repository Structure
 
 - **Circos:** This directory contains scripts and files related to the visualization of the genome using Circos.
-  - `circos_picus_colaptes.R`: Circos script for visualizing the genome with related species (*Colaptes*).
-  - `circos_picus_gallus.R`: Circos script for visualizing the genome with a reference species (*Gallus*).
+  - `circos_picus_colaptes.R`: Circos script for visualizing the genome with related species (*Colaptes auratus*).
+  - `circos_picus_gallus.R`: Circos script for visualizing the genome with the reference model organism, the Chicken (*Gallus gallus*).
   - `pviridis_chromosomes_names.csv`: CSV file containing chromosome names for *Picus viridis*.
   - `rename_picus_chr_v2.py`: Python script for renaming *Picus viridis* chromosomes.
   - `Rename_picus_contigs.ipynb`: Jupyter notebook for renaming *Picus viridis* contigs.
