@@ -24,17 +24,17 @@ This repository contains scripts and tools for the assembly and analysis of the 
   - `SFS_picus.py`: Python script for computing the SFS for *Picus viridis*.
   - `sfs_tools.py`: Python script containing tools for SFS analysis.
 
-## Instructions
+## Components description
 
-1. **Chromosome Naming and Visualization:**
-   - Use `rename_picus_chr_v2.py` and `Rename_picus_contigs.ipynb` for renaming chromosomes and contigs.
+1. **Genome Comparison:**
+   - Execute `run_mummer.sh` for genome comparison using MUMmer. Used as an input for sytneny analysis and Circos plotting.
+
+2. **Chromosome Naming and Visualization:**
+   - Use `rename_picus_chr_v2.py` and `Rename_picus_contigs.ipynb` for renaming chromosomes and contigs accordingly to the genome of *Gallus gallus*.
    - Run Circos scripts (`circos_picus_colaptes.R` and `circos_picus_gallus.R`) for visualization.
 
-2. **Genome Comparison:**
-   - Execute `run_mummer.sh` for genome comparison using MUMmer.
-
 3. **Population Genetics Analysis:**
-   - Run `pi_diversity.sh` for calculating pi diversity.
+   - Run `pi_diversity.sh` for calculating Watterson's Pi diversity using vcftools.
    - Execute `popgen_stats_picus.R` for additional population genetics statistics.
 
 4. **Site Frequency Spectrum Analysis:**
